@@ -128,9 +128,6 @@ function filterItem(category) {
     });
   }
 }
-if (item.isJunkFood == true) {
-  abc(item);
-}
 
 function items(item) {
   arrItem += `<div class='maincontainer'>
