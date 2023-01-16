@@ -5,7 +5,7 @@ let arr = [
     isJunkFood: true,
     calories: 150,
     foodItemImageUrl:
-      "https://c.ndtvimg.com/2018-10/mms64sd_paneer-sabzi_625x300_15_October_18.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT13aYX-diF-nkJm42z6mearKBiE42YM_iBgQ&usqp=CAU",
   },
   {
     foodName: "Masala Bhindi",
@@ -42,7 +42,7 @@ let arr = [
   {
     foodName: "Chana Kulcha",
     foodCategory: "lunch",
-    isJunkFood: false,
+    isJunkFood: true,
     calories: 195,
     foodItemImageUrl:
       "https://i.ndtvimg.com/i/2015-04/chana-kulcha_625x350_41429707001.jpg",
@@ -69,7 +69,7 @@ let arr = [
     isJunkFood: true,
     calories: 230,
     foodItemImageUrl:
-      "https://c.ndtvimg.com/2018-10/mms64sd_paneer-sabzi_625x300_15_October_18.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx-QE6BtLEFODkKl1WoV3Ed7sR1ZblPMezJg&usqp=CAU",
   },
   {
     foodName: "Paneer Tamatar Ki Subzi",
@@ -82,7 +82,7 @@ let arr = [
   {
     foodName: "Malabari Prawn Curry",
     foodCategory: "dinner",
-    isJunkFood: false,
+    isJunkFood: true,
     calories: 320,
     foodItemImageUrl:
       "https://i.ndtvimg.com/i/2015-06/indian-dinner_625x350_71434362500.jpg",
