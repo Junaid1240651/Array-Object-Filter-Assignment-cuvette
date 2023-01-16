@@ -91,7 +91,7 @@ let arr = [
     foodName: "Bhel Puri",
     foodCategory: "snacks",
     isJunkFood: false,
-    calories: 90,
+    calories: 390,
     foodItemImageUrl:
       "https://www.vegrecipesofindia.com/wp-content/uploads/2012/08/bhel-puri-1-280x280.jpg",
   },
@@ -128,14 +128,17 @@ function filterItem(category) {
     });
   }
 }
+if (item.isJunkFood == true) {
+  abc(item);
+}
 
 function items(item) {
   arrItem += `<div class='maincontainer'>
-  <div ><img class='img' src='${item.foodItemImageUrl}'></div>
-  <div class='data'><h1>FoodName - ${item.foodName}</h1>
-  <h2>FoodCategory - ${item.foodCategory}</h2>
+  <div><img class='img' src='${item.foodItemImageUrl}'></div>
+  <div class='data'><h4>FoodName - ${item.foodName}</h4>
+  <h4>FoodCategory - ${item.foodCategory}</h4>
 
-  <h3>IsJunkFood - ${item.isJunkFood}</h3>
+  <h4>IsJunkFood - ${item.isJunkFood}</h4>
   <h4>Calories - ${item.calories}</h4>
   </div>
   </div>`;
